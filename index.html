@@ -1,48 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
+
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tech Essentials — Tienda Moderna</title>
-  <meta name="description" content="Accesorios tech con diseño moderno y limpio para ventas efectivas." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Samuel Vasquez — Mini Store Demos</title>
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-<header class="header-white">
-  <h1>
-    La <span class="accent-text">Tienda Tech</span> para ti
-  </h1>
-  <p>
-    Explora accesorios tecnológicos con diseño limpio e interacción suave.
-  </p>
-  <a href="#catalogo" class="btn-primary">Ver catálogo</a>
-</header>
-<main class="container">
-  <section id="catalogo" class="product-grid">
-    <article class="product-card">
-      <img src="img/A1.png" alt="Smartwatch Pro" />
-      <h3>Smartwatch Pro</h3>
-      <span class="price">$35.90</span>
-      <a href="https://wa.me/0000000000?text=Quiero Smartwatch Pro" class="btn-buy">Comprar</a>
-    </article>
-    <article class="product-card">
-      <img src="img/A2.png" alt="Earbuds 360" />
-      <h3>Earbuds 360</h3>
-      <span class="price">$29.90</span>
-      <a href="https://wa.me/0000000000?text=Quiero Earbuds 360" class="btn-buy">Comprar</a>
-    </article>
-    <article class="product-card">
-      <img src="img/A3.png" alt="Bocina Portable" />
-      <h3>Bocina Portable</h3>
-      <span class="price">$19.90</span>
-      <a href="https://wa.me/0000000000?text=Quiero Bocina Portable" class="btn-buy">Comprar</a>
-    </article>
-  </section>
-</main>
-<a class="cta-float" href="https://wa.me/0000000000" target="_blank">¡Compra ya por WhatsApp!</a>
-<footer class="footer-white">
-  <p>© 2025 Tech Essentials - Tienda Online</p>
-</footer>
-<script src="script.js"></script>
+  <div class="intro" id="intro">
+    <div class="intro-card">
+      <h1>Samuel Vasquez</h1>
+      <p>Fast mini-store demos — HTML • CSS • JS<br>Click below to enter the portfolio</p>
+      <a class="enter-btn" href="#" id="enterBtn">Enter Portfolio</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">SV</div>
+        <div>
+          <div class="title">Samuel Vasquez — Mini Store Demos</div>
+          <div class="subtitle">HTML • CSS • JavaScript — Fast, customizable mini-stores</div>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn preview" href="#demos">View Demos</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I create fast, fully responsive mini online stores using pure HTML, CSS and JavaScript. Each demo is ready to show to clients and easy to customize (products, colors, texts, images).</p>
+    </section>
+
+    <section id="demos">
+      <h2>Mini-Store Demos</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="mini-stores/demo1/img/A1.png" alt="Demo 1">
+          <h3>Plan #1 — 1 to 5 products</h3>
+          <p>Responsive mini-store demo with WhatsApp integration and 1 month of free updates after purchase.</p>
+          <div class="actions">
+            <a class="btn view" href="mini-stores/demo1/index.html" target="_blank">Open Demo</a>
+            <a class="btn preview" href="mini-stores/demo1/index.html" target="_blank">Live Preview</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © 2025 Samuel Vasquez · Mini Store Demos · <a href="mailto:youremail@example.com">youremail@example.com</a>
+    </footer>
+  </div>
+
+  <script src="js/portfolio.js"></script>
 </body>
 </html>

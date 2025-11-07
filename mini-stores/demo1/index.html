@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tech Essentials — Tienda Moderna</title>
-  <meta name="description" content="Accesorios tech con diseño moderno y limpio para ventas efectivas." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Essentials — Tienda Mejorada</title>
+<meta name="description" content="Accesorios tech con diseño moderno, interactivo y listo para vender.">
+
+<!-- Librerías externas -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-<header class="header-white">
-  <h1>
-    La <span class="accent-text">Tienda Tech</span> para ti
-  </h1>
-  <p>
-    Explora accesorios tecnológicos con diseño limpio e interacción suave.
-  </p>
+
+<header class="header-white" data-aos="fade-down">
+  <h1>La <span class="accent-text">Tienda Tech</span> para ti</h1>
+  <p class="typed-text"></p>
   <a href="#catalogo" class="btn-primary">Ver catálogo</a>
 </header>
+
+<!-- Slider de productos destacados -->
+<div class="swiper-container" data-aos="fade-up">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Smartwatch Pro</div>
+    <div class="swiper-slide">Earbuds 360</div>
+    <div class="swiper-slide">Bocina Portable</div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
 <main class="container">
   <section id="catalogo" class="product-grid">
-    <article class="product-card">
-      <img src="img/A1.png" alt="Smartwatch Pro" />
+    <article class="product-card" data-aos="zoom-in" data-aos-delay="100">
+      <img src="img/A1.png" alt="Smartwatch Pro">
       <h3>Smartwatch Pro</h3>
       <span class="price">$35.90</span>
       <a href="https://wa.me/0000000000?text=Quiero Smartwatch Pro" class="btn-buy">Comprar</a>
     </article>
-    <article class="product-card">
-      <img src="img/A2.png" alt="Earbuds 360" />
+    <article class="product-card" data-aos="zoom-in" data-aos-delay="200">
+      <img src="img/A2.png" alt="Earbuds 360">
       <h3>Earbuds 360</h3>
       <span class="price">$29.90</span>
       <a href="https://wa.me/0000000000?text=Quiero Earbuds 360" class="btn-buy">Comprar</a>
     </article>
-    <article class="product-card">
-      <img src="img/A3.png" alt="Bocina Portable" />
+    <article class="product-card" data-aos="zoom-in" data-aos-delay="300">
+      <img src="img/A3.png" alt="Bocina Portable">
       <h3>Bocina Portable</h3>
       <span class="price">$19.90</span>
       <a href="https://wa.me/0000000000?text=Quiero Bocina Portable" class="btn-buy">Comprar</a>
     </article>
   </section>
 </main>
-<a class="cta-float" href="https://wa.me/0000000000" target="_blank">¡Compra ya por WhatsApp!</a>
+
+<!-- Chatbot flotante -->
+<div id="chatbot">💬</div>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="cta-float" href="https://wa.me/0000000000" target="_blank">¡Compra ya!</a>
+
 <footer class="footer-white">
-  <p>© 2025 Tech Essentials - Tienda Online</p>
+  <p>© 2025 Tech Essentials - Tienda Mejorada</p>
 </footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="script.js"></script>
+
 </body>
 </html>

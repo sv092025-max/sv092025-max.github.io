@@ -7,7 +7,7 @@ The `mini-stores/demo1` folder contains the uploaded mini-store project (index.h
 ## How to publish
 1. Push this folder to a GitHub repository.
 2. In the repo settings, enable GitHub Pages (branch: main, folder: /root).
-3. Access the live site at: https://sv092025-max.github.io/
+3. Access the live site at: https://your-username.github.io/your-repo-name/
 
 ## Notes for clients
 - Demo: Plan #1 (1-5 products)
